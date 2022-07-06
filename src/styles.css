@@ -1,0 +1,290 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+section {
+  background-color: white;
+}
+
+.hero {
+  background-color: #ffe8d6;
+  height: 100vh;
+  color: #6b705c;
+  font-size: 40px;
+}
+
+footer {
+  background-color: #6b705c;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+  color: #6b705c;
+}
+
+h3 {
+  color: black;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+  color: #6b705c;
+}
+
+.about-para {
+  color: #b7b7a4;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #cb997e;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+  color: white;
+}
+
+.button:hover {
+  background-color: #a87f6a;
+}
+
+.button:active {
+  background-color: #b7b7a4;
+  color: #808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.logo {
+  height: 80px;
+  margin: 30px;
+}
+.social {
+  margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 80px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
+  margin: 10px;
+  background-color: #ffe8d6;
+  -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.project-card:hover{
+  background-color: #dbd7d5;
+  box-shadow: 2px 2px 15px 0 rgba(135,135,135, 0.4);
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.project-link{
+  padding-bottom: 13px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.source-code{
+  padding-top: 0;
+  margin: 0;
+  color: #000000;
+  font-size: 14px;
+}
+
+.source-code-wrapper{
+  border-radius: 10px;
+  background-color: #a87f6a;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.source-code-wrapper:hover{
+  background-color:#7c5a48;
+}
+
+.fa-brands{
+  padding-left: 10px;
+  font-size: 20px;
+}
+hr{
+  margin-bottom: 0;
+  padding: 0;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 25px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #cb997e;
+  /* text-shadow: 1.5px 1.5px 1.5px rgba(121, 121, 121, 0.4); */
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #cb997e;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+.contact-me {
+  color: white;
+}
+
+.email {
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: #6b705c;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  ul {
+    display: none;
+    background-color: #ddbea9;
+    margin: 0ppx;
+  }
+
+  ul.show {
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #ddbea9;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .hero {
+    background-size: 100%;
+  }
+}
